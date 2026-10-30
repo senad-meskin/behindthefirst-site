@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;600&display=swap');
+:root{--paper:#1c4c80;--deep:#143a66;--ink:#eaf2fb;--dim:rgba(234,242,251,.72);--amber:#ffb23e}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--paper)}
+body{min-height:100vh;color:var(--ink);font:400 17px/1.65 'IBM Plex Sans',system-ui,sans-serif;
+ background-color:var(--paper);background-image:
+ linear-gradient(rgba(220,235,255,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(220,235,255,.16) 1px,transparent 1px),
+ linear-gradient(rgba(220,235,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(220,235,255,.06) 1px,transparent 1px);
+ background-size:160px 160px,160px 160px,32px 32px,32px 32px}
+main{max-width:760px;margin:0 auto;padding:56px 16px 80px}
+.k{font:500 13px 'IBM Plex Mono',monospace;letter-spacing:.2em;text-transform:uppercase;color:var(--dim)}
+.k a{color:inherit;text-decoration:none}.k a:hover{color:var(--ink)}
+.tick{width:36px;border-top:3px solid var(--amber);margin:14px 0 26px}
+h1{font:700 clamp(44px,9vw,88px)/.95 'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.01em}
+h1 b{color:var(--amber);font-weight:700}
+h2{font:600 24px/1.2 'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.02em;margin:36px 0 10px}
+p,li{color:var(--dim);margin:0 0 12px}
+ul{padding-left:20px}
+strong{color:var(--ink);font-weight:600}
+a{color:var(--amber)}
+.lead{font-size:20px;color:var(--ink);margin:22px 0 30px;max-width:36em}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 40px}
+.links a{font:500 14px 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);
+ text-decoration:none;border:1.5px solid var(--ink);padding:12px 18px}
+.links a:first-child{background:var(--amber);border-color:var(--amber);color:#14304f}
+.links a:hover{background:var(--ink);color:var(--paper)}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid rgba(234,242,251,.25)}
